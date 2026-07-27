@@ -1,0 +1,11 @@
+* { box-sizing: border-box; }
+body { margin: 0; overflow: hidden; font-family: ui-rounded, system-ui, sans-serif; color: #3b2618; background: #f6dfb8; }
+canvas { display: block; }
+.hud { position: fixed; z-index: 1; top: 1rem; left: 1rem; width: min(360px, calc(100vw - 2rem)); padding: 1rem; border: 3px solid rgba(83, 50, 24, .22); border-radius: 18px; background: rgba(255, 245, 222, .86); box-shadow: 0 14px 35px rgba(63, 38, 20, .18); backdrop-filter: blur(8px); }
+.hud strong { display: block; font-size: 1.25rem; }
+.hud span, .hint { color: #70513d; font-size: .9rem; }
+.hud label { display: grid; gap: .2rem; margin: .75rem 0; font-weight: 700; }
+.hud input { accent-color: #9b6335; }
+button { width: 100%; margin-top: .5rem; padding: .7rem .9rem; border: 0; border-radius: 999px; color: #fff7e6; background: #9b6335; font-weight: 800; cursor: pointer; }
+button:hover { background: #7f4f2a; }
+#reset { background: #685446; }
